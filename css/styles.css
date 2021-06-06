@@ -1,0 +1,64 @@
+.about-me {
+    font-family: "Merriweather", sans-serif;
+    font-size: 18px;
+    color: #FDFAF6;
+    word-spacing: auto;
+    margin: 0 600px;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+body {
+    background-color: #232323;
+}
+
+.background-pic {
+    border-radius: 100%;
+    margin: 50px auto;
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+.counters {
+    color: #FDFAF6;
+    text-align: center;
+}
+
+.footer {
+    color: #FDFAF6;
+    text-align: center;
+    font-family: "Merriweather", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.greeting {
+    margin-top: 90px;
+    font-family: "Sacramento", sans-serif;
+    font-size: 6rem;
+}
+
+h3 {
+    text-align: center;
+    color: #FDFAF6;
+}
+
+.Introduction {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Merriweather", sans-serif;
+    font-style: bold;
+    color: #FDFAF6;
+}
+
+.viewer {
+    font-family: "Merriweather", sans-serif;
+}
+
+.counter {
+    font-size: 100px;
+    font-family: "Merriweather", sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
