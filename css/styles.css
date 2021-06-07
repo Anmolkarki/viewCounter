@@ -3,9 +3,10 @@
     font-size: 18px;
     color: #FDFAF6;
     word-spacing: auto;
-    margin: 0 600px;
-    text-align: justify;
+    /* margin: 0 600px; */
+    text-align: center;
     margin-bottom: 2rem;
+    margin: auto 300px;
 }
 
 body {

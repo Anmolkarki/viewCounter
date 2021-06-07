@@ -2,10 +2,10 @@
      var greeting = document.querySelector("h1.greeting");
      var date = new Date();
      var time = date.getHours();
-     if (time < 10) {
+     if (time < 12) {
          greeting.innerHTML = "Good Morning";
      }
-     if (time >= 10 && time <= 15) {
+     if (time >= 12 && time <= 18) {
          greeting.innerHTML = "Good AfterNoon";
      } else {
          greeting.innerHTML = "Good Night";

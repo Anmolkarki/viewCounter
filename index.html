@@ -8,11 +8,13 @@
     <title>View Counter</title>
 
 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
 
 </head>
 
@@ -28,7 +30,7 @@
 
 
     <div class="counters">
-        <h1 id="counter" class="counter">1</h1>
+        <h1 id="counter" class="counter"></h1>
     </div>
     <div class="about-section">
         <img class="background-pic" src="pictures/webdev.png" alt="background-pic"></img>
@@ -46,8 +48,9 @@
         </footer>
     </div>
 
-    <script src="script/Counter.js"></script>
-    <script src="script/Greeting.js"></script>
+    <script src="/script/Counter.js"></script>
+    <script src="/script/Greeting.js"></script>
+
 
 </body>
 
